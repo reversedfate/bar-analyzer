@@ -1,0 +1,36 @@
+{
+  "name": "bar-analyzer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "parse-units": "node scripts/lua-parser/parse.js",
+    "convert-icons": "python scripts/convert-icons.py",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.7",
+    "pinia": "^2.3.0",
+    "vue": "^3.5.13",
+    "vue-chartjs": "^5.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "sharp": "^0.34.5",
+    "tailwindcss": "^3.4.1",
+    "typescript": "~5.7.2",
+    "vite": "^6.1.0",
+    "vitest": "^4.0.18",
+    "vue-tsc": "^2.2.0"
+  },
+  "optionalDependencies": {
+    "@esbuild/win32-x64": "^0.25.0",
+    "@rollup/rollup-win32-x64-msvc": "^4.57.1"
+  }
+}
