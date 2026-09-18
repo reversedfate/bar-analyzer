@@ -2,7 +2,7 @@
 
 A web application for analyzing and comparing unit statistics in **Beyond All Reason** (BAR), an open-source RTS game.
 
-**Live demo:** https://skalnroze.github.io/bar-analyzer/ (unit icons are generated locally and not included in the demo)
+**Live demo:** https://sigurdskalnroze.github.io/bar-analyzer/ (unit icons are generated locally and not included in the demo)
 
 ## Features
 
